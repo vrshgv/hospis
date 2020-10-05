@@ -3,7 +3,7 @@ import React from 'react';
 class MainFooter extends React.Component {
     render() {
         return (
-            <div class="page-footer px-0 mt-7 font-small special-color-dark">
+            <div class="page-footer px-0 pt-5 font-small special-color-dark">
 
             <div class="container text-center text-md-left">
               <div class="row">
@@ -14,7 +14,7 @@ class MainFooter extends React.Component {
           
                   <ul class="list-unstyled">
                     <li>
-                        Детский хоспис "Я с тобой", 2020
+                        Детский хоспис "Я с тобой", 2020   <i class="fas fa-hand-holding-heart"></i>
                     </li>
                     <br/>
 

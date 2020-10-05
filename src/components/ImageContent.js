@@ -10,18 +10,18 @@ class ImageContent extends React.Component {
                         <img className='img-fluid img-jopa pl-3' src='/5299.jpg' />
 
                     </div>
-                    <div className="col-md-6 col-lg-5 pr-10">
+                    <div className="col-md-6 col-lg-5 pr-10" id='contacts'>
                         <div className='content_d pl-7 text-right'>
                             <p className='mb-3 h2'>Детский хоспис <span>«Я с тобой»</span></p>
                             <p className='mb-4 videocontent_p'>Первый в Казахстане детский хоспис для детей
                                             <br />с онкологическими заболеваниями «Я с тобой»</p>
                             <p>Контактная информация:<br />
                                         Детский хоспис «Я с тобой»<br />
-                                        +7 727 977-81-52<br />
-                                        +7 707 492 5352<br />
-                                        zdorovayaaz@gmail.com<br />
+                                        <a href="tel:+77279778152">+7 727 977-81-52</a><br />
+                                        <a href="tel:+77074925352">+7 707 492-53-52</a><br />
+                                        <a href='mailto:zdorovayaaz@gmail.com'>zdorovayaaz@gmail.com</a><br />
                             </p>
-                            <p class="text-info pointer" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Схема проезда&#9662;</p>
+                            <p class="text-info pointer d-block d-sm-none"  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Схема проезда&#9662;</p>
                             <div class="collapse mb-2" id="collapseExample">
                                 <div className='mb-2'>Республика Казахстан, Алматинская область, Карасайский район, село Кыргауылды, улица Самал, дом 40</div>
                                 <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa454879341bfe44a6cc2730c583b6e3dd6de900f3377c09e2960ddd9802f1fbb&amp;source=constructor" width="340" height="274" frameborder="0"></iframe>
