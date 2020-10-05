@@ -640,17 +640,18 @@ small {
 .footer {
     font-size: 14px;
     transition: all 0.5s ease;
-    ;
     line-height: 18px;
 }
-
+.fixed{
+    position: fixed;
+}
 .line {
     width: 50px;
     border-bottom: 1px solid white;
     position: absolute;
 }
 
-footer {
+.footer {
     position: fixed;
     transition: 0.5s ease;
     left: 0;
@@ -699,7 +700,7 @@ a:hover {
     display: block;
 }
 
-footer a:hover {
+.footer a:hover {
     font-weight: bold;
     color: white;
     cursor: pointer;
@@ -962,12 +963,12 @@ form {
     padding-bottom: 55px;
 }
 
-footer a {
+.footer a {
     text-decoration: none;
     transition: all 0.5s ease;
 }
 
-footer p {
+.footer p {
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -975,7 +976,7 @@ footer p {
     letter-spacing: normal;
 }
 
-footer h6 {
+.footer h6 {
     font-size: 15px;
     line-height: 20px;
 }
@@ -991,11 +992,21 @@ footer small {
 footer .no-h {
     margin-top: 40px;
 }
-
+.mt-7{
+    padding-top:50px;
+}
 footer .first-d {
     max-width: 270px;
 }
-
+.page-footer{
+    padding-bottom: 70px;
+    background-color: #0F131B;
+    color: white;
+}
+.page-footer a{
+    color: white;
+    text-decoration: none;
+}
 .tel {
     cursor: default;
 }
@@ -1087,6 +1098,7 @@ footer .first-d {
     -ms-transform: translateX(26px);
     transform: translateX(26px);
 }
+
 
 /* Rounded sliders */
 
