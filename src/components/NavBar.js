@@ -25,7 +25,7 @@ class NavBar extends React.Component{
                       <NavLink className="nav-link" to='/'>Главная</NavLink>
                     </li>
                     <li className="nav-item">
-                    <NavLink className="nav-link" to='/'>О фонде</NavLink>
+                    <NavLink className="nav-link" to='/about'>О фонде</NavLink>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

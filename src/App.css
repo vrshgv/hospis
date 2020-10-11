@@ -985,7 +985,7 @@ footer .first-d {
     max-width: 270px;
 }
 .page-footer{
-    padding-bottom: 15px;
+	padding-bottom: 50px;
     background-color: #23394e;
     color: white;
 }

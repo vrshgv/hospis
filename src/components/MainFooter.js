@@ -55,7 +55,8 @@ class MainFooter extends React.Component {
           
                 <div class="col mx-auto">
           
-                  <p class="font-weight-bold mt-3 mb-4">О фонде</p>
+                  <p class="font-weight-bold mt-3 mb-4">Главная</p>
+				  <p class="mt-3 mb-2">О фонде</p>
                   <p class="mt-3 mb-2">Программы</p>
                   <ul class="list-unstyled">
                     <li>

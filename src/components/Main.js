@@ -2,7 +2,6 @@ import React from 'react';
 import Header from './Header';
 import SubHeader from './SubHeader';
 import ImageContent from './ImageContent';
-import Footer from './Footer'
 
 class Main extends React.Component {
     render() {
@@ -11,7 +10,6 @@ class Main extends React.Component {
                 <Header />
                 <SubHeader />
                 <ImageContent />
-                <Footer />
             </div>
         );
     }
