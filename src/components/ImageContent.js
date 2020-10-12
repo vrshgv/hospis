@@ -5,26 +5,26 @@
 /* eslint-disable max-len */
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 class ImageContent extends React.Component {
   render() {
     return (
       <div className="container imagecontent">
-        <div className="row d-flext justify-content-around imagecontent_r">
-          <div className="col-md-6 col-lg-7 pr-0 mr-0">
-            <img className="img-fluid img-jopa pl-3" src="/5299.jpg" />
-          </div>
-          <div className="col-md-6 col-lg-5 pr-10" id="contacts">
-            <div className="content_d pl-7 text-right">
+        <div className="row d-flext justify-content-around imagecontent imagecontent_r">
+          <div className="col-md-6 order-lg-1 order-first order-sm-1 float-right d-flex align-items-center">
+            <div className="content_d d4 text-left">
+            <div className="content_d  text-left">
               <p className="mb-3 h2">
                 Детский хоспис
                 {' '}
                 <span>«Я с тобой»</span>
               </p>
               <p className="mb-4 videocontent_p">
-                Первый в Казахстане детский хоспис для детей
+                Первый в Казахстане детский хоспис <br/> для детей
+                с онкологическими заболеваниями 
                 <br />
-                с онкологическими заболеваниями «Я с тобой»
+                «Я с тобой»
               </p>
               <p>
                 Контактная информация:
@@ -38,37 +38,20 @@ class ImageContent extends React.Component {
                 <a href="mailto:zdorovayaaz@gmail.com">zdorovayaaz@gmail.com</a>
                 <br />
               </p>
-              <p
-                className="text-info pointer d-block d-sm-none"
-                data-toggle="collapse"
-                href="#collapseExample"
-                role="button"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                Схема проезда&#9662;
-              </p>
-              <div className="collapse mb-2" id="collapseExample">
-                <div className="mb-2">
-                  Республика Казахстан, Алматинская область, Карасайский район, село Кыргауылды, улица
-                  Самал, дом 40
-                </div>
-                <iframe
-                  src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa454879341bfe44a6cc2730c583b6e3dd6de900f3377c09e2960ddd9802f1fbb&amp;source=constructor"
-                  width="340"
-                  height="274"
-                  frameBorder="0"
-                />
-              </div>
-              <a className="btn my-2 px-3 pink" href="">
+              <NavLink className="btn my-2 px-3 pink" to='/help'>
                 Как помочь детскому хоспису?
-              </a>
+              </NavLink>
+            </div>
             </div>
           </div>
+          <div className="col-md-6 order-2 order-last order-md-2">
+          <img className="img-fluid" src="/family.png" width='500px' />
+          </div>
         </div>
+
         <div className="row d-flext mt-6 imagecontent_r justify-content-around">
           <div className="col-md-6 order-lg-1 order-last order-sm-2">
-            <img className="img-fluid i1" src="/.svg" />
+            <img className="img-fluid i1" src="/charity2.png" />
           </div>
           <div className="col-md-6 order-lg-2 order-sm-1 order-first float-right d-flex align-items-center">
             <div className="content_d d1 text-left">
@@ -77,7 +60,7 @@ class ImageContent extends React.Component {
                 Хоспис – это обеспечение качества жизни безнадежно больного ребенка, помощь и поддержка
                 его родных и близких, оказание социальной, медицинской, психологической и духовной
                 помощи. Вся миссия хосписа рождалась из того, что нам говорили наши маленькие пациенты.
-                Мы брали все требования к хоспису не &quit;из головы&quot;, а из самой жизни, маленькие
+                Мы брали все требования к хоспису не "из головы", а из самой жизни, маленькие
                 пациенты были нашими лучшими учителями...
                 <br />
                 Мы помогаем жить, несмотря на болезнь. Помогаем наполнить жизнь интересными, значимыми
@@ -91,8 +74,7 @@ class ImageContent extends React.Component {
           <div className="col-md-6 order-lg-1 order-sm-1 order-first float-right d-flex align-items-center">
             <div className="content_d d2 text-left">
               <p className="h2">Задачи хосписа</p>
-              <p className="text-wrap text-left">
-                <ul>
+                <ul className='list-styled text-wrap text-left'>
                   <li>Обеспечение качества жизни безнадежно больного ребенка</li>
                   <li>Помощь и поддержка его родных и близких, родных братьев и сестер</li>
                   <li>
@@ -101,16 +83,15 @@ class ImageContent extends React.Component {
                   </li>
                   <li>Поддержка родных и близких после утраты ребенка, период горевания</li>
                 </ul>
-              </p>
             </div>
           </div>
           <div className="col-md-6 order-lg-2 order-last order-sm-2">
-            <img className="img-fluid i2" src="" />
+            <img className="img-fluid i2" src="/stet.png" />
           </div>
         </div>
         <div className="row mt-6 d-flext justify-content-around imagecontent_r">
           <div className="col-md-6 order-lg-1 order-last order-sm-2">
-            <img className="img-fluid i3" src="" />
+            <img className="img-fluid i3" src="/charity1.png" />
           </div>
           <div className="col-md-6 order-lg-2 order-first order-sm-1 float-right d-flex align-items-center">
             <div className="content_d d3 text-left">
@@ -143,12 +124,12 @@ class ImageContent extends React.Component {
             </div>
           </div>
           <div className="col-md-6 order-2 order-last order-md-2">
-            <img className="img-fluid i4" src="" />
+            <img className="img-fluid i4" src="/familyhome.jpeg" />
           </div>
         </div>
         <div className="row mt-6 d-flext justify-content-around imagecontent_r">
           <div className="col-md-6 order-lg-1 order-last order-sm-2">
-            <img className="img-fluid i3" src="" />
+            <img className="img-fluid i3" src="/vol.png" />
           </div>
           <div className="col-md-6 order-lg-2 order-first order-sm-1 float-right d-flex align-items-center">
             <div className="content_d d3 text-left">

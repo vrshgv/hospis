@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 class Footer extends React.Component {
   state = { activeClass: '' };
@@ -14,13 +15,13 @@ class Footer extends React.Component {
   
   render() {
     return (
-      <div class={`footer  ${this.state.activeClass}`}>
+      <div class={`footer mobile-none ${this.state.activeClass}`}>
         <div class="container">
-          <a class='mr-3'>Как помочь</a><img class='mr-3' src='line-blue.svg' />
-          <a class='mr-3'>Помочь делом</a><img class='mr-3' src='line-blue.svg' />
-          <a class='mr-3'>Помочь деньгами</a><img class='mr-3' src='line-blue.svg' />
-          <a class='mr-3'>Помочь вещами</a><img class='mr-3' src='line-blue.svg' />
-          <a class='mr-3'>Стать волонтером</a>
+          <NavLink to='/help' class='mr-3'>Как помочь</NavLink><img class='mr-3' src='line-blue.svg' />
+          <NavLink to='/help' class='mr-3'>Помочь делом</NavLink><img class='mr-3' src='line-blue.svg' />
+          <NavLink to='/help' class='mr-3'>Помочь деньгами</NavLink><img class='mr-3' src='line-blue.svg' />
+          <NavLink to='/help' class='mr-3'>Помочь вещами</NavLink><img class='mr-3' src='line-blue.svg' />
+          <NavLink to='/volunteer' class='mr-3'>Стать волонтером</NavLink>
         </div>
       </div>
     );
