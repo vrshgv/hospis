@@ -1,9 +1,19 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 class Volunteer extends React.Component {
     render() {
         return (
             <div className='container volunteer box bg-light px-3 py-5'>
+                <div className='row'>
+                <div className='col-md-4 col-lg-4'>
+                <div className='sidebar shadow-sm'>
+                    <ul className='my-2 py-2 list-unstyled'>
+                    <NavLink className="my-3" to='/volunteer'><li>Информация для волонтеров</li></NavLink>
+                    </ul>
+                </div>
+                </div>
+                <div className='col-md-8 col-lg-8'>
                 <h5 className=''>Волонтёрам</h5>
                 <p>Детский хоспис активно привлекает к работе волонтеров. Именно волонтеры могут дать семье индивидуальное внимание и помочь исполнить самые необыкновенные мечты. Какие бывают волонтеры:</p>
                 <ul className='my-5'>
@@ -29,6 +39,8 @@ class Volunteer extends React.Component {
                     </li>
                 </ul>
                 <h6 className='my-3 text-bold'>Волонтеры — это здорово! Детский хоспис держится на волонтерах.</h6>
+            </div>
+            </div>
             </div>
         );
     }

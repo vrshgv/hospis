@@ -8,7 +8,6 @@ class Main extends React.Component {
         return (
             <div className='container box bg-light py-5'>
                 <Header />
-                <SubHeader />
                 <ImageContent />
             </div>
         );

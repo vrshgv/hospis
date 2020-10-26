@@ -6,6 +6,9 @@
     .mobile-none {
         display: none !important;
     }
+    .page-footer{
+        padding-bottom: 10px !important;
+    }
 }
 @media (max-width: 775px){
     .contact-content img{
@@ -98,7 +101,12 @@ nav .btn, .header-content .btn, .tariffscontent .btn, .formcontent .btn {
     font-weight: bold !important;
     text-transform: none !important;
 }
-
+.sidebar{
+    background: #ededed;
+    border-radius: 4px;
+    padding: 4px 10px;
+    margin-bottom: 15px;
+}
 .header-content {
     margin-right: 0;
 }
@@ -220,6 +228,9 @@ nav .pro-b {
 }
 .box h5, .box h6{
     font-weight: 600;
+}
+.paypalWrapper{
+    margin-left: 0px !important;
 }
 .imagecontent .content_d {
     font-stretch: normal;
@@ -678,7 +689,7 @@ footer .first-d {
     max-width: 270px;
 }
 .page-footer{
-	padding-bottom: 50px;
+	padding-bottom: 70px;
     background-color: #23394e;
     color: white;
 }

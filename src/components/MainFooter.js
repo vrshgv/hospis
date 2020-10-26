@@ -13,6 +13,7 @@ class MainFooter extends React.Component {
                     <li>
                         Детский хоспис "Я с тобой", 2020   <i class="fas fa-hand-holding-heart"></i>
                     </li>
+                    
                     <br/>
                     <li>
                       <a href="tel:+77279778152">+7 727 977-81-52</a>
@@ -22,7 +23,9 @@ class MainFooter extends React.Component {
                       <br/>
                     </li>
                     <li><a href='mailto:zdorovayaaz@gmail.com'>zdorovayaaz@gmail.com</a></li>
-                    <br/>
+                    <li>
+                    <div class="my-2 powr-paypal-button" id="daa2e5b1_1603692892"></div><script src="https://www.powr.io/powr.js?platform=html"></script>
+                    </li>
                     <li>
                     Республика Казахстан, Алматинская область, Карасайский район, село Кыргауылды, улица Самал, дом 40</li>
                   </ul>
@@ -47,25 +50,25 @@ class MainFooter extends React.Component {
                   <p class="mt-3 mb-2">Программы</p>
                   <ul class="list-unstyled">
                     <li>
-                    Центр поддержки детей с онкологическими заболеваниями
+                    <NavLink to='/help-center'>Центр поддержки детей с онкологическими заболеваниями</NavLink>
                         <ul class='list-unstyled pl-3 py-2'>
-                            <li><NavLink to='/center'>Центр паллиативной помощи</NavLink></li>
-                            <li><NavLink to='/box'>Коробка храбрости</NavLink></li>
-                            <li><NavLink to='/service'>Выездная служба</NavLink></li>
+                            <li><NavLink to='/help-center'>Центр паллиативной помощи</NavLink></li>
+                            <li><NavLink to='/brave-box'>Коробка храбрости</NavLink></li>
+                            <li><NavLink to='/mobile-service'>Выездная служба</NavLink></li>
                         </ul>
                     </li>
                     <li>
-                    Здоровье матери и ребенка
+                    <NavLink to='/rjm'>Здоровье матери и ребенка</NavLink>
                         <ul class='list-unstyled pl-3 py-2'>
-                            <li><NavLink to="/rmj-rshm">РЖМ и РШМ</NavLink></li>
+                            <li><NavLink to="/rjm">РЖМ и РШМ</NavLink></li>
                             <li><NavLink to="/school">Школа пациента</NavLink></li>
-                            <li><NavLink to="/iamhere">Малыш, я с тобой</NavLink></li>
+                            <li><NavLink to="/hospis">Малыш, я с тобой</NavLink></li>
                         </ul>
                     </li>
                     <li>
-                    Учебно методический центр
+                    <NavLink to='/study'>Учебно методический центр</NavLink>
                         <ul class='list-unstyled pl-3 py-2'>
-                            <li><NavLink to='/seminars'>Обучающие семинары для врачей</NavLink></li>
+                            <li><NavLink to='/study'>Обучающие семинары для врачей</NavLink></li>
                         </ul>
                     </li>  
                   </ul>
