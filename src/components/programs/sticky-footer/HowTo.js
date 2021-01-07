@@ -9,11 +9,11 @@ class Help extends React.Component {
                 <div className='col-md-4 col-lg-4'>
                 <div className='sidebar shadow-sm'>
                     <ul className='my-2 py-2 list-unstyled'>
-                    <NavLink className="my-3" to='/corporate'><li>Корпоративная благотворительность</li></NavLink>
-                        <NavLink className="my-3" to='/dobry-product'><li>Добрый Продукт</li></NavLink>
-
-                        <NavLink className="my-3" to='/brave-box'><li>Коробка храбрости</li></NavLink>
-                        <NavLink className="my-3" to='/donation'><li>Реквизиты</li></NavLink>
+                    <NavLink className="my-3" to='/how-to'><li>Как помочь?</li></NavLink>
+                        <NavLink className="my-3" to='/help-deeds'><li>Помочь делом</li></NavLink>
+                        <NavLink className="my-3" to='/help-donate'><li>Помочь деньгами</li></NavLink>
+                        <NavLink className="my-3" to='/help-clothes'><li>Помочь вещами</li></NavLink>
+                        <NavLink className="my-3" to='/help-volunteer'><li>Стать волонтёром</li></NavLink> 
 
                     </ul>
                 </div>

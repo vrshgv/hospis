@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-class Volunteer extends React.Component {
+class FooterVolunteer extends React.Component {
     render() {
         return (
             <div className='container volunteer box bg-light px-5 py-5'>
@@ -9,8 +9,11 @@ class Volunteer extends React.Component {
                 <div className='col-md-4 col-lg-4'>
                 <div className='sidebar shadow-sm'>
                     <ul className='my-2 py-2 list-unstyled'>
-                    <NavLink className="my-3" to='/volunteer'><li>Информация для волонтеров</li></NavLink>
-                    </ul>
+                    <NavLink className="my-3" to='/how-to'><li>Как помочь?</li></NavLink>
+                        <NavLink className="my-3" to='/help-deeds'><li>Помочь делом</li></NavLink>
+                        <NavLink className="my-3" to='/help-donate'><li>Помочь деньгами</li></NavLink>
+                        <NavLink className="my-3" to='/help-clothes'><li>Помочь вещами</li></NavLink>
+                        <NavLink className="my-3" to='/help-volunteer'><li>Стать волонтёром</li></NavLink>                    </ul>
                 </div>
                 </div>
                 <div className='col-md-8 col-lg-8'>
@@ -46,4 +49,4 @@ class Volunteer extends React.Component {
     }
 }
 
-export default Volunteer;
+export default FooterVolunteer;

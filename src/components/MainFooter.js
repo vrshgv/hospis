@@ -11,7 +11,7 @@ class MainFooter extends React.Component {
                   <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Контактная информация</h5>          
                   <ul class="list-unstyled">
                     <li>
-                        Детский хоспис "Я с тобой", 2020   <i class="fas fa-hand-holding-heart"></i>
+                        Детский хоспис "Я с тобой", 2021   <i class="fas fa-hand-holding-heart"></i>
                     </li>
                     
                     <br/>
@@ -29,12 +29,6 @@ class MainFooter extends React.Component {
                     <li>
                     Республика Казахстан, Алматинская область, Карасайский район, село Кыргауылды, улица Самал, дом 40</li>
                   </ul>
-                  <div class='mt-3'>
-                      <p class='mb-2'>Мы в соцсетях:</p>
-                      <a href="https://www.facebook.com/detsky.hospis" target='_blank' class='mr-3'><i class="fab fa-facebook-f fa-2x"></i></a> 
-							        <a href="https://www.instagram.com/detskyhospis/" target='_blank' class='mr-3'><i class="fab fa-instagram fa-2x"></i></a> 
-							        <a href="https://vk.com/iamwith_you" target='_blank'><i class="fab fa-vk fa-2x"></i></a>
-                  </div>
                 </div>
 
                 <hr class="clearfix w-100 d-md-none"/>          
@@ -45,33 +39,31 @@ class MainFooter extends React.Component {
           
                 <hr class="clearfix w-100 d-md-none"/>
           
-                <div class="col mx-auto">
+                <div class="col mt-3">
                   <NavLink to='/' class="font-weight-bold mt-3">Главная</NavLink>
-                  <p class="mt-3 mb-2">Программы</p>
                   <ul class="list-unstyled">
-                    <li>
-                    <NavLink to='/help-center'>Центр поддержки детей с онкологическими заболеваниями</NavLink>
-                        <ul class='list-unstyled pl-3 py-2'>
-                            <li><NavLink to='/help-center'>Центр паллиативной помощи</NavLink></li>
-                            <li><NavLink to='/brave-box'>Коробка храбрости</NavLink></li>
-                            <li><NavLink to='/mobile-service'>Выездная служба</NavLink></li>
-                        </ul>
+                    <li className="mb-3 mt-3 ml-3">
+                    <NavLink to='/volunteer'>Волонтёрам</NavLink>
                     </li>
-                    <li>
-                    <NavLink to='/rjm'>Здоровье матери и ребенка</NavLink>
-                        <ul class='list-unstyled pl-3 py-2'>
-                            <li><NavLink to="/rjm">РЖМ и РШМ</NavLink></li>
-                            <li><NavLink to="/school">Школа пациента</NavLink></li>
-                            <li><NavLink to="/hospis">Малыш, я с тобой</NavLink></li>
-                        </ul>
+                    <li className="mb-3 ml-3">
+                    <NavLink to='/parents'>Родителям</NavLink>
                     </li>
-                    <li>
-                    <NavLink to='/study'>Учебно методический центр</NavLink>
-                        <ul class='list-unstyled pl-3 py-2'>
-                            <li><NavLink to='/study'>Обучающие семинары для врачей</NavLink></li>
-                        </ul>
-                    </li>  
+                    <li className="mb-3 ml-3">
+                    <NavLink to='/how-to-help'>Благотворителям</NavLink>
+                    </li>
+                    <li className="mb-3 ml-3">
+                    <NavLink to='/help-center'>Центр Поддержки Детей с Онкологическими Заболеваниями</NavLink>
+                    </li>   
+                    <li className="mb-3 ml-3">
+                    <NavLink to='/requisites'>Контакты</NavLink>
+                    </li> 
                   </ul>
+                  <div class=''>
+                      <p class='mb-2'>Мы в соцсетях:</p>
+                      <a href="https://www.facebook.com/detsky.hospis" target='_blank' class='mr-3'><i class="fab fa-facebook-f fa-2x"></i></a> 
+							        <a href="https://www.instagram.com/detskyhospis/" target='_blank' class='mr-3'><i class="fab fa-instagram fa-2x"></i></a> 
+							        <a href="https://vk.com/iamwith_you" target='_blank'><i class="fab fa-vk fa-2x"></i></a>
+                  </div>
                 </div>
                 <hr class="clearfix w-100 d-md-none"/>
               </div>

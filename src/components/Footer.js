@@ -17,11 +17,11 @@ class Footer extends React.Component {
     return (
       <div class={`footer mobile-none ${this.state.activeClass}`}>
         <div class="container">
-          <NavLink to='/how-to-help' class='mr-3'>Как помочь</NavLink><img class='mr-3' src='line-blue.svg' />
-          <NavLink to='/help-deeds' class='mr-3'>Помочь делом</NavLink><img class='mr-3' src='line-blue.svg' />
-          <NavLink to='/donation' class='mr-3'>Помочь деньгами</NavLink><img class='mr-3' src='line-blue.svg' />
-          <NavLink to='/help-clothes' class='mr-3'>Помочь вещами</NavLink><img class='mr-3' src='line-blue.svg' />
-          <NavLink to='/volunteer' class='mr-3'>Стать волонтером</NavLink>
+          <NavLink to='/how-to'>Как помочь</NavLink><img  src='line-blue.svg' />
+          <NavLink to='/help-deeds'>Помочь делом</NavLink><img  src='line-blue.svg' />
+          <NavLink to='/help-donate'>Помочь деньгами</NavLink><img  src='line-blue.svg' />
+          <NavLink to='/help-clothes'>Помочь вещами</NavLink><img  src='line-blue.svg' />
+          <NavLink to='/help-volunteer'>Стать волонтером</NavLink>
         </div>
       </div>
     );

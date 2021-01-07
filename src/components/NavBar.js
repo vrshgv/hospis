@@ -26,41 +26,54 @@ class NavBar extends React.Component{
                 <div className=" collapse navbar-collapse smooth-scroll" id="navbarText">
                   <ul className="navbar-nav w-100 d-flex justify-content-center">
                     <li className="nav-item">
-                    <NavLink className="nav-link" to='/'>О фонде</NavLink>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Программы
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <NavLink className="dropdown-item" to='/help-center'>Центр поддержки детей с онкологическими заболеваниями</NavLink>
-                        <NavLink className="dropdown-item" to='/rjm'>Здоровье матери и ребенка</NavLink>
-                        <NavLink className="dropdown-item" to='/study'>Учебно-методический центр</NavLink>
-                      </div>
+                    <NavLink className="nav-link" to='/'>Главная</NavLink>
                     </li>
                     <li class="nav-item dropdown">
                       <NavLink className="nav-link" to='/volunteer'>Волонтёрам</NavLink>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Пациентам
-                      </a>
+                      <NavLink class="nav-link dropdown-toggle" to="/parents" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Родителям
+                      </NavLink>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <NavLink className="dropdown-item" to='/info'>Справочная информация</NavLink>
-                        <NavLink className="dropdown-item" to='/law'>Юридическая информация</NavLink>
+                        <NavLink className="dropdown-item" to='/doctors'>Врачи</NavLink>
+                        <NavLink className="dropdown-item" to='/nurses'>Медсёстры</NavLink>
+                        <NavLink className="dropdown-item" to='/psychologists'>Психологи</NavLink>
+                        <NavLink className="dropdown-item" to='/art'>Арт-терапевты</NavLink>
+                        <NavLink className="dropdown-item" to='/law'>Правовая и Юридическая помощь</NavLink>
+                        <NavLink className="dropdown-item" to='/events'>Мероприятия</NavLink>
+                        <NavLink className="dropdown-item" to='/support'>Духовная поддержка</NavLink>
                       </div>
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Как помочь?
-                      </a>
+                      <NavLink class="nav-link dropdown-toggle" to="/how-to-help" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Благотворителям
+                      </NavLink>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <NavLink className="dropdown-item" to='/how-to-help'>Реквизиты</NavLink>
+                      <NavLink className="dropdown-item" to='/corporate'>Корпоративная благотворительность</NavLink>
+                      <NavLink className="dropdown-item" to='/dobry-product'>Добрый продукт</NavLink>
+                      <NavLink className="dropdown-item" to='/brave-box'><li>Коробка храбрости</li></NavLink>
+                      <NavLink className="dropdown-item" to='/donation'>Реквизиты</NavLink>
                       </div>
                     </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#footer">Контакты</a>
+                    <li class="nav-item dropdown">
+                      <NavLink class="nav-link dropdown-toggle" to="/help-center" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Центр Поддержки Детей
+                      </NavLink>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <NavLink className="dropdown-item" to='/help-center'>Центр Паллиативной Помощи</NavLink>
+                      <NavLink className="dropdown-item" to='/mobile-service'><li>Выездная служба</li></NavLink>
+                      </div>
                     </li>
+                    <li class="nav-item dropdown">
+                      <NavLink class="nav-link dropdown-toggle" to="/requisites" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Контакты
+                      </NavLink>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <NavLink className="dropdown-item" to='/requisites'>Реквизиты</NavLink>
+                      <NavLink className="dropdown-item" to='/form'>Анкета для пациентов</NavLink>
+                      <NavLink className="dropdown-item" to='/press'><li>Для СМИ</li></NavLink>
+                      </div>                    </li>
                   </ul>
                 </div>
                 <div className='or order-sm-1 order-md-2'>

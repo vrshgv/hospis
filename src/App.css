@@ -87,9 +87,25 @@ nav {
 
 .nav-link {
     color: #172d49 !important;
-    padding: 10px;
 }
 
+#navbarDropdown {
+    color: #172d49 !important;
+}
+.nav-item a {
+    padding: 5px 10px;
+}
+.footer .container a {
+    padding: 10px;
+}
+.dropdown-toggle::after {
+    display:none;
+}
+.nav-item.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 nav .prices {
     padding-right: 25px !important;
 }

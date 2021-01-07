@@ -8,12 +8,11 @@ class DobryProduct extends React.Component {
                 <div className='row'><div className='col-md-4 col-lg-4'>
                 <div className='sidebar shadow-sm'>
                     <ul className='my-2 py-2 list-unstyled'>
-                        <NavLink className="my-3" to='/help-center'><li>Центр паллиативной помощи</li></NavLink>
-                        <NavLink className="my-3" to='/stacionar'><li>Стационар детского хосписа</li></NavLink>
+                    <NavLink className="my-3" to='/corporate'><li>Корпоративная благотворительность</li></NavLink>
+                        <NavLink className="my-3" to='/dobry-product'><li>Добрый Продукт</li></NavLink>
 
                         <NavLink className="my-3" to='/brave-box'><li>Коробка храбрости</li></NavLink>
-                        <NavLink className="my-3" to='/mobile-service'><li>Выездная служба</li></NavLink>
-                        <NavLink className="my-3" to='/dobry-product'><li>Добрый продукт</li></NavLink>
+                        <NavLink className="my-3" to='/donation'><li>Реквизиты</li></NavLink>
                     </ul>
                 </div>
                 </div>
